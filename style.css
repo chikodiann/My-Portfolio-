@@ -1,0 +1,259 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    background-image: url(./image/realistic-polygonal-background_52683-61087.webp);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+  main {
+    text-align: center;
+    margin-top: 10%;
+    font-size: 20px;
+    color: rgb(207, 203, 203);
+  }
+.front button{
+width: 15rem;
+height: 5rem;
+background-color: gold;
+margin-left: 34rem;
+border-radius: 8px;
+font-size: large;
+cursor: pointer;
+}
+  /* navbar begin here */
+  header *{
+      display: inline;
+  }
+header li{
+    margin: 20px;
+}  
+header li a{
+    color: white;
+    text-decoration: none;
+}
+header{
+    position: sticky;
+    margin-left: 40rem;
+} 
+ /* about me begin here */
+.about h1{ 
+    font-size: 38px;
+    font-weight: bolder;
+    margin-left: 40rem;
+    padding-top: 1.5rem;
+ }
+ .name {
+    color: white;
+       }
+.about{
+    color: white;
+    height: max-content;
+ }
+.about img{
+    width: 15rem;
+    height: 15rem;
+    border-radius: 2rem;
+    margin-left: 10rem;
+    border: 1px solid;
+    padding: 5px;
+    margin-top: -5rem;
+}
+.intro {
+    border: 10px solid white;
+    width: 35rem;
+    padding: 3px;
+    margin-left: 30rem;
+    margin-top: -20rem;
+    font-size: 15px;
+    margin-bottom: 1rem;
+    font-weight: bolder;
+    background-color: black;
+}
+#leftbox {
+    float:left; 
+    background:gray;
+    width:23%;
+    height: 185px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: white;
+}
+#middlebox{
+    float:left; 
+    background: gray;
+    width: 23%;
+    height: 185px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: white;
+}
+#rightbox{
+    float:right;
+    background: gray;
+    width:23%;
+    height: 185px;
+    border: 1px solid;
+    border-radius: 10px;
+    color: white;
+}
+#boxes ol, ul{
+    font-size: 15px;
+    color: black; 
+    line-height: 1px;
+    font-weight: bolder;
+}
+#boxes h4{
+    text-align: center;
+    font-weight: bolder;
+}
+#boxes *{
+    margin: 25px;
+    margin-right: 6rem;
+}
+/* contact page begins here */
+.contact{
+    height: 20rem;
+    width: 35rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+.contact form{
+    border: none;
+    color: white;
+    margin-top: 1rem;
+    background-color: black;
+    padding: 10px;
+    font-size: 30px;
+}
+.contact h1{
+    color: white;
+    text-align: center;
+    margin-top: -6rem;
+    font-size: 39px;
+}
+.contact hr{
+    width: 5rem;
+}
+.contact p{
+    color: gold;
+    font-size: large;
+    text-align: center;
+}
+.contact button{
+    color: black;
+    width: 5rem;
+    height: 2rem;
+    background-color: white;
+    margin-left: 29rem;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.contact input{
+    width: 97%;
+    background-color: black;
+    margin: 8px;
+    height: 2rem;
+    color: white;
+}
+.contact textarea{
+    width: 99%;
+    background-color: black;
+    color: white;
+}
+
+/* registration page begins here */
+.reg{
+    height: 70%;
+    width: 40%;
+    margin: auto auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+.reg h1{
+    color: white;
+    text-align: center;
+    margin-top: -7rem;
+    font-size: 35px;
+}
+.reg form{
+    border: none;
+    color: gray;
+    margin-top: -1.5rem;
+    background-color: black;
+    padding: 10px;
+    font-size: 15px;
+    
+}
+.reg input{
+    width: 97%;
+    background-color: black;
+    margin: 4px;
+    height: 20px;
+    color: white;
+}
+.reg button{
+    color: black;
+    width: 15rem;
+    height: 2rem;
+    background-color: gold;
+    font-size: large;
+    cursor: pointer;
+    border-radius: 4px;
+    text-align: center;
+}
+.reg select{
+     background-color: gold;
+}
+.reg label{
+    float: left;
+}
+.reg hr{
+    width: 97%;
+    border: 1px solid gray;
+}
+
+
+/* login form begins here// */
+.login{
+    box-sizing: border-box;
+}
+.login h1{
+    font-size: 35px;
+}
+.login form{
+    background-color: rgba(0, 0, 0, 0.5);
+    margin: auto auto;
+    padding: 40px;
+    border-radius: 5px;
+    position: absolute;
+    box-shadow: 0 0 10px #000;
+    width: 450px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 350px;
+}
+.login input{
+    margin: 10px 0px;
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	width: 97%;
+	font-size: 18px;
+}
+.login button{
+    background-color: gold;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+	padding: 10px;
+	margin: 20px 0px;
+}
+
